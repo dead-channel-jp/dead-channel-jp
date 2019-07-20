@@ -1,0 +1,52 @@
+{
+  "name": "dead-channel.jp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dead-channel-jp/dead-channel-jp",
+  "description": "The sky above the port was the color of television, tuned to a dead channel.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dead-channel-jp/dead-channel-jp.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch",
+    "gulp": "gulp"
+  },
+  "author": "dead-channel-jp",
+  "license": "unlicense",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.11",
+    "eslint": "^5.4.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-file": "^0.4.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "jquery": "^3.4.1",
+    "markdown-it": "^8.4.2",
+    "markdown-it-meta": "0.0.1",
+    "merge-stream": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "pug": "^2.0.3",
+    "uikit": "^3.0.3",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.19.1",
+    "webpack-stream": "^5.1.1"
+  },
+  "dependencies": {}
+}

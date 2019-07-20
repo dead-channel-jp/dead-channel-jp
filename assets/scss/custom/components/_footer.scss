@@ -1,0 +1,23 @@
+.footer{
+
+  padding: $section-gap 0;
+
+  border-top: 1px solid #eee;
+
+  &-copy{
+    font-family: $font-family-monospace;
+  }
+
+  a{
+    transition: color .3s ease-in-out;
+    &:link, &:visited{
+      text-decoration: underline;
+      color: #000;
+    }
+    &:hover, &:active{
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
+
+}

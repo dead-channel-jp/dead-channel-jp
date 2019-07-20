@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title #{title}
+    link(rel='stylesheet' href='/css/app.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans&display=swap')
+    script(async=true, src='https://www.googletagmanager.com/gtag/js?id=UA-1766751-16')
+    script
+        | window.dataLayer = window.dataLayer || [];
+        | function gtag(){dataLayer.push(arguments);}
+        | gtag('js', new Date());
+        | gtag('config', 'UA-1766751-16');
+    script(src='https://kit.fontawesome.com/ce09d2f53e.js')
+  body
+    block content
+    footer.footer
+        .container
+            p.footer-copy.text-center.text-muted
+                | &copy; 2019&nbsp;
+                a(href="/" rel='home') Dead Channel JP
+    script(src='/js/jquery.min.js')
+    script(src='/js/popper.min.js')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/app.js')
