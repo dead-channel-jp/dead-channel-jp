@@ -27,3 +27,11 @@ Requirements for writers are one of below:
 ・地縁のある作家の相互扶助を促進する。
 ・参加している作家の情報を国内・海外双方に発信し、その活動の認知に努める。
 -->
+
+- Helping each other as authors in one little city.
+- Promoting to both localy and globaly to make their activities recognizable. 
+
+## Why we quote "Neuromancer"?
+
+One of the most famous lines of Sience Fiction describes the sky of Chiba City!
+

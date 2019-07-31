@@ -97,7 +97,71 @@
 
   &-members{
     background-color: $primary;
-    color: #fff;
   }
 }
 
+.member{
+  &-title{
+    color: #fff;
+  }
+
+  $img-width: 200px;
+  margin-bottom: $gap;
+  padding: $gap / 2;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba( 0, 0, 0, .2);
+  &-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $gray-800;
+  }
+  &:nth-child(even){
+  }
+  &:nth-child(odd){
+  }
+
+  &-photo{
+    flex: 0 0 200px;
+  }
+
+  &-img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+
+  &-name{
+    font-size: 3rem;
+    small{
+      margin-left: 2em;
+      color: $gray-700;
+      font-size: 1rem;
+    }
+  }
+
+  &-content{
+    padding: 0 3rem $gap;
+    h4{
+      margin: 2em 0 1em;
+      font-weight: 300;
+      color: $gray-600;
+      font-size: 1.4rem;
+      &:before{
+        content: "— ";
+        display: inline;
+      }
+    }
+    ul{
+
+    }
+    .quote{
+      blockquote{
+
+      }
+      figcaption{
+
+      }
+    }
+  }
+
+}

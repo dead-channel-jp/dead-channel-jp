@@ -11,6 +11,7 @@ const browserSync = require('browser-sync');
 const pug = require('pug');
 const MarkdownIt = require('markdown-it');
 const meta = require('markdown-it-meta');
+const citation = require('markdown-it-citation');
 
 
 // Sass tasks
@@ -93,7 +94,6 @@ gulp.task('imagemin', () => {
   return gulp.src('./assets/img/**/*')
     .pipe($.imagemin([
       pngquant({
-        quality: '65-80',
         speed: 1,
         floyd: 0
       }),
@@ -151,27 +151,31 @@ gulp.task('pug-render', (done) => {
 } );
 
 gulp.task('pug-front', (done) => {
-  // Make new instance
-  const md = new MarkdownIt();
   // Add markdown-it-meta
   const local = {
     about: '',
     members: [],
   };
-  md.use( meta );
   // Scan md files to compile.
   const files = fs.readdirSync( './manuscripts' );
   files.forEach( file => {
+    // Make new instance
+    const md = (new MarkdownIt()).use( citation );
+    md.use( meta );
     const fileContent = fs.readFileSync( './manuscripts/' + file );
     let rendered = md.render( fileContent.toString() );
     rendered = rendered.replace( /&lt;!--(.*?)--&gt;/smg, '' );
-    console.log( rendered );
     switch( file ) {
       case 'about.md':
         local.about = rendered;
         break;
       default:
-        local.members.push( rendered );
+        local.members.push( Object.assign({
+          name: "",
+          name_ja: "",
+          photo: "",
+          html: rendered,
+        }, md.meta));
         break;
     }
   });

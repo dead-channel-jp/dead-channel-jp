@@ -28,9 +28,22 @@ block content
                         .front-about-content!=markdown.about
     section.front-members.front
         .container
-            h2.front-title — Members
-            p They are members.
-    section.front-contact.front
+            h2.front-title.member-title — Members
+            p.member-list
+                each member, index in markdown.members
+                    a.member-list-link( href='#' )=member.name
+            each member, index in markdown.members
+                article.member
+                    header.member-header
+                        .member-photo
+                            img.member-img(src="img/" + member.photo, alt=member.name)
+                        h3.member-name
+                            span=member.name
+                            small=member.name_ja
+                    .member-content!=member.html
+                    footer.member-contact.text-center
+                        a.btn.btn-outline-secondary(href='#contact') Contact
+    section#contact.front-contact.front
         .container
             h2.front-title — Contact
             .row
