@@ -11,7 +11,9 @@
   "scripts": {
     "start": "gulp",
     "watch": "gulp watch",
-    "gulp": "gulp"
+    "build": "gulp build",
+    "gulp": "gulp",
+    "browser-sync": "gulp bs"
   },
   "author": "dead-channel-jp",
   "license": "unlicense",

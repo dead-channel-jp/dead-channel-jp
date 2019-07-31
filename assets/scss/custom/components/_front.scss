@@ -1,5 +1,7 @@
 .front {
 
+  padding: $section-gap 0;
+
   &-header {
     background: #000;
     position: relative;
@@ -59,7 +61,7 @@
       transform: translate( -50%, -50% );
       z-index: 10;
       padding: $gap;
-      border: 3px double rgba( 255, 255, 255, .2 );
+      border: 9px double rgba( 255, 255, 255, .2 );
       background-color: rgba( 255, 255, 255, .05 );
       color: #fff;
       text-shadow: 0 0 5px #000;
@@ -69,6 +71,7 @@
 
       }
       blockquote{
+        color: #7e7e7e;
       }
       p{
         margin: 0;
@@ -79,4 +82,22 @@
       }
     }
   }
+
+  &-title{
+    font-size: 1.6em;
+    font-family: $font-family-monospace;
+    font-weight: bold;
+    margin-bottom: $gap;
+    padding-bottom: 0;
+  }
+
+  &-about{
+
+  }
+
+  &-members{
+    background-color: $primary;
+    color: #fff;
+  }
 }
+

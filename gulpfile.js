@@ -151,9 +151,38 @@ gulp.task('pug-render', (done) => {
 } );
 
 gulp.task('pug-front', (done) => {
+  // Make new instance
+  const md = new MarkdownIt();
+  // Add markdown-it-meta
+  const local = {
+    about: '',
+    members: [],
+  };
+  md.use( meta );
+  // Scan md files to compile.
+  const files = fs.readdirSync( './manuscripts' );
+  files.forEach( file => {
+    const fileContent = fs.readFileSync( './manuscripts/' + file );
+    let rendered = md.render( fileContent.toString() );
+    rendered = rendered.replace( /&lt;!--(.*?)--&gt;/smg, '' );
+    console.log( rendered );
+    switch( file ) {
+      case 'about.md':
+        local.about = rendered;
+        break;
+      default:
+        local.members.push( rendered );
+        break;
+    }
+  });
+  console.log( local );
+  // Render HTML
   const compiled = pug.compileFile('pug/index.pug');
   const html = compiled({
-    title: 'Welcome to CJK4WP',
+    title: 'Dead Channel JP',
+    tagline: 'the Sci-Fi writers association in Chiba City',
+    desc: 'The sky above the port was the color of television, tuned to a dead channel.',
+    markdown: local
   });
   return $.file('index.html', html, { src: true })
     .pipe(gulp.dest('docs'));
@@ -197,6 +226,7 @@ gulp.task('watch', function () {
   gulp.watch('assets/img/**/*', gulp.task('imagemin'));
   // Pug
   gulp.watch( 'pug/**/*.pug', gulp.task( 'pug' ) );
+  gulp.watch( 'manuscripts/**/*.md', gulp.task( 'pug' ) );
 });
 
 // Pug.

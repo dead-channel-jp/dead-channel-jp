@@ -9,5 +9,38 @@ block content
         .front-header-title
             h1 Dead Channel JP
             blockquote.lead
-                p "The sky above the port was the color of television, tuned to a dead channel."
-                cite —— William Gibson
+                p=desc
+                cite Neuromancer —— William Gibson
+    section.front-about.front
+        .container
+            h2.front-title — About US
+            .row
+                .col-xs-12.col-md-4
+                    figure.front-chiba
+                        img.front-chiba-img( src='/img/chiba.svg' )
+                        figcaption.front-chiba-caption
+                            | Map by&nbsp;
+                            a(href='https://commons.wikimedia.org/wiki/File:Map_of_Chiba_Prefecture_Ja.svg') Lincun&nbsp;
+                            a(href='https://creativecommons.org/licenses/by-sa/3.0/deed.ja') CC BY-SA 3.0
+                .col-xs-12.col-md-8
+                    .front-about-us
+                        p.lead=title + ' = ' + tagline
+                        .front-about-content!=markdown.about
+    section.front-members.front
+        .container
+            h2.front-title — Members
+            p They are members.
+    section.front-contact.front
+        .container
+            h2.front-title — Contact
+            .row
+                .col-xs-12.col-md-6
+                    p Contact form here
+                .col-xs-12.col-md-6
+                    .form-hubspot
+                        script( src='//js.hsforms.net/forms/shell.js' )
+                        script.
+                            hbspt.forms.create({
+                                portalId: "5114573",
+                                formId: "db585d96-a7a9-460c-bddd-0fe66791364d"
+                            });
