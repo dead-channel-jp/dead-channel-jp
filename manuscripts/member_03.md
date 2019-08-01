@@ -2,7 +2,7 @@
 
 name: Muneo Ishikawa  	
 name_ja: 石川宗生  
-photo: member_03.jpg  
+photo: muneo.jpg  
 
 ---
 

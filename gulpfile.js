@@ -174,6 +174,8 @@ gulp.task('pug-front', (done) => {
           name: "",
           name_ja: "",
           photo: "",
+          site: "",
+          twitter: "",
           html: rendered,
         }, md.meta));
         break;

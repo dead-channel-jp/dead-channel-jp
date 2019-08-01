@@ -1,3 +1,16 @@
+%inline-link{
+  transition: color .3s linear;
+  &:link, &:visited{
+    color: $black;
+    text-decoration: underline;
+  }
+  &:hover, &:active{
+    color: $primary;
+    text-decoration: none;
+  }
+
+}
+
 .front {
 
   padding: $section-gap 0;
@@ -93,6 +106,22 @@
 
   &-about{
 
+    &-content{
+      color: $gray-600;
+      h3{
+        margin: 1em 0;
+        color: $black;
+        font-family: $font-family-monospace;
+        font-weight: normal;
+      }
+    }
+
+  }
+
+  &-chiba{
+    &-caption{
+      font-size: 11px;
+    }
   }
 
   &-members{
@@ -113,7 +142,6 @@
   &-header{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid $gray-800;
   }
   &:nth-child(even){
   }
@@ -132,6 +160,7 @@
 
   &-name{
     font-size: 3rem;
+    padding: 0 $gap / 2;
     small{
       margin-left: 2em;
       color: $gray-700;
@@ -141,6 +170,12 @@
 
   &-content{
     padding: 0 3rem $gap;
+    &-after{
+      content: "";
+      display: block;
+      height: 0;
+      clear: left;
+    }
     h4{
       margin: 2em 0 1em;
       font-weight: 300;
@@ -151,17 +186,69 @@
         display: inline;
       }
     }
-    ul{
-
+    p{
+      line-height: 1.6;
     }
-    .quote{
-      blockquote{
-
+    a{
+      @extend %inline-link;
+    }
+    ul{
+      li{
+        margin: 1em 0;
       }
-      figcaption{
-
+    }
+    em{
+      font-family: $font-family-serif;
+      font-weight: bold;
+    }
+    blockquote {
+      display: block;
+      position: relative;
+      padding: 2em;
+      font-size: 1.2em;
+      margin: 2em 0 2em 100px;
+      &:before, &:after{
+        position: absolute;
+        font-size: 80px;
+        color: $gray-200;
+        font-family: $font-family-serif;
+      }
+      &:before{
+        content: "“";
+        top: 0;
+        left: 0;
+      }
+      &:after{
+        content: "”";
+        bottom: 0;
+        right: 0;
+      }
+      p:last-child{
+        font-size: 0.85em;
+        font-family: $font-family-monospace;
+        &:before{
+          content: "— ";
+        }
       }
     }
   }
 
+  &-contact{
+    position: relative;
+    padding-top: 4em;
+    &:before{
+      position: absolute;
+      content: "";
+      display: block;
+      width: 60px;
+      top: -2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      background-color: $gray-400;
+    }
+    a + a{
+      margin-left: 1em;
+    }
+  }
 }

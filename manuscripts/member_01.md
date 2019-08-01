@@ -2,7 +2,7 @@
 
 name: Am Nagra  
 name_ja: 名倉編  
-photo: member_01.png  
+photo: nagura.png  
 
 ---
 

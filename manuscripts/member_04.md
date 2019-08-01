@@ -2,7 +2,7 @@
 
 name: Satoshi Ogawa  
 name_ja: 小川哲
-photo: member_04.jpg
+photo: ogawa.jpg
 
 ---
 

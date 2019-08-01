@@ -21,6 +21,7 @@ block content
                         figcaption.front-chiba-caption
                             | Map by&nbsp;
                             a(href='https://commons.wikimedia.org/wiki/File:Map_of_Chiba_Prefecture_Ja.svg') Lincun&nbsp;
+                            | as&nbsp;
                             a(href='https://creativecommons.org/licenses/by-sa/3.0/deed.ja') CC BY-SA 3.0
                 .col-xs-12.col-md-8
                     .front-about-us
@@ -42,6 +43,11 @@ block content
                             small=member.name_ja
                     .member-content!=member.html
                     footer.member-contact.text-center
+                        if member.twitter
+                            a.btn.btn-outline-primary(href='https://twitter.com/' + member.twitter) twitter
+                        if member.site
+                            a.btn.btn-outline-success(href=member.site) Web Site
+                        if member.site
                         a.btn.btn-outline-secondary(href='#contact') Contact
     section#contact.front-contact.front
         .container
