@@ -33,7 +33,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohomori Nozomi Sci-Fi
 小川洋子
 -->
 
-> (About "Aureliano is coming") Anyway, his skils are genuine to complete such a "Grand Hotel Style" story without any failure. Possibly, he might be  in his first step to much greater novels that I've never thought of.
+> (About "Aureliano is coming") Anyway, his skills are genuine to complete such a "Grand Hotel Style" story without any failure. Possibly, he might be  in his first step to much greater novels that I've never thought of.
 > 
 > [Yoko Ogawa](https://en.wikipedia.org/wiki/Y%C5%8Dko_Ogawa)
 
