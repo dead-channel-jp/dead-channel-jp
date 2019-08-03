@@ -9,28 +9,13 @@ photo: nagura.png
 
 #### Bio
 
-名倉編はSF、ミステリなどを含むメタフィクションを得意とする小説家。
-1989/7/23に京都府で生まれ、現在は千葉に住んでいる。首都大学東京大学院理工学研究科を卒業し、物理学を専攻していた。
-「ゲンロン 大森望 SF創作講座」で月に１作短編小説の生産に励み、
-その後『異セカイ系』で第58回メフィスト賞を受賞しデビューした。デビュー作『異セカイ系』は日本のフィクションに見られる２つの類型である「セカイ系」と「なろう系」を合体させ、キャラクターと作者の関係や倫理にまつわる思弁的な問いに挑んだワイドスクリーン・メタフィクション。
-言葉遊びを好み、ペンネームの""Am Nagra""はアナグラムのアナグラム。
+Am Nagra is a writer good at metafications including Sci-Fi and Mystery. Born in Kyoto at July 23rd, 1989. Living in Chiba City. Studied physics at Tokyo Metropolitan University. He likes and his pen name is an anagram of "anagram".
+
+He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelettes every month. After graduation, he won the 58th Mephisto Award. Hits first book _"Alternative Sekaikei"_ is a conjunction of Sekaikei and Naroukei which are 2 major type in Japanese fictions. It evokes philosophical questions about relationships and ethics between authors and characters.
 
 #### List of Works
 
-- 『異セカイ系』""Alternate sekai-kei""(もっといいのがあればそちらに変えていただければ幸いです)
-2018 講談社、メフィスト賞受賞。
-
-
-<!--
-『異セカイ系』""Alternate sekai-kei""(もっといいのがあればそちらに変えていただければ幸いです)
-2018 講談社、メフィスト賞受賞。
-導入：
-おほ
-
-かわい
-
-めっちゃいいやんこのセリフ！　なにこの。かわい。かわい。これかわい。"	"
--->
+- _"Alternative Sekaikei"_（異セカイ系）, 2018 Kodansha, won **the 58th Mephisto Award**
 
 #### Testimonials
 
@@ -39,8 +24,9 @@ photo: nagura.png
 東浩紀
 -->
 
-> キャラクターの問題は愛の問題であり、キャラクターをめぐる小説は愛をめぐる哲学の試みである。新井素子『……絶句』を継承し、ネット環境でアップデートする、キャラクター小説＝哲学の新たな傑作が誕生。関西弁の地の文もいいよ！
-> — Hiroki Azuma
+> A questions about charaters is a question about love, and also a novel about characters is a philosophical thought experiment about love. Inheriting [Motoko Arai]()'s _"Alternative Sekaikei"_（異セカイ系）, Nagura updates it in this internet environment. This is a new born masterpiece of philosophical characters' novels. Narrative parts written in Kansai dialect are also good!
+> 
+> [Hiroki Azuma](https://en.wikipedia.org/wiki/Hiroki_Azuma)
 
 
 <!--
@@ -48,5 +34,6 @@ photo: nagura.png
 大森望
 -->
 
-> ハーレムエンドはいかに正当化されるか？　セカイ系をなろう系に改装し、新本格と重ね合わせてすべての可能世界に拡張する、最強のワイドスクリーン・メタフィクション！　いい人すぎて涙が出ます。
-> — Nozomi Ohmori
+> How "Harlem End" can be acceptable? "Alternative Sekaikei" renovates Sekaikei to Naroukei, mix the New Orthodox School Detective Novels, and extends the connections between every possible worlds. This is a strongest wide-screen metafication! The narrator is a very good man to make my tears drop.
+> 
+> Nozomi Ohmori(A Sci-Fi Anthologist)
