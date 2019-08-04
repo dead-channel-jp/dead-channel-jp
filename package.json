@@ -9,6 +9,7 @@
     "url": "http://github.com/dead-channel-jp/dead-channel-jp.git"
   },
   "scripts": {
+    "test": "eslint assets/js/app.js",
     "start": "gulp",
     "watch": "gulp watch",
     "build": "gulp build",
@@ -28,6 +29,7 @@
     "eslint": "^5.4.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-eslint": "^6.0.0",
     "gulp-file": "^0.4.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-load-plugins": "^1.2",
