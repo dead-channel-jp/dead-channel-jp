@@ -41,7 +41,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 小川洋子
 -->
 
-> (About "Aureliano is coming") Anyway, his skills are genuine to complete such a "Grand Hotel Style" story without any failure. Possibly, he might be  in his first step to much greater novels that I've never thought of.
+> (About _"Aureliano is coming"_) Anyway, his skills are genuine to complete such a "Grand Hotel Style" story without any failure. Possibly, he might be  in his first step to much greater novels that I've never thought of.
 > 
 > [Yoko Ogawa](https://en.wikipedia.org/wiki/Y%C5%8Dko_Ogawa)
 
@@ -49,7 +49,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 高橋さんは何を書かせてもまあうまい。キャラも書けるし、 文学的な含みも感じさせるし、何でもできる感じ。どこにもストレスを感じさせずに、べらぼうに上手いものを読んだ印象が残る。こんなことを考える人はいないし、一からあれを思いついて書けるというのは、大変なもの。 — 飛浩隆
 -->
 
-> (About “Mind your P’s and Q’s”) Takahashi writes any kind of stories very well. His characters animate and he also has literary profundity. He seems to be able to write anything. I read without any stress and just feel awesome. None creates such story. It's really difficult to imagine and write that kind of story.
+> (About _“Mind your P’s and Q’s”_) Takahashi writes any kind of stories very well. His characters animate and he also has literary profundity. He seems to be able to write anything. I read without any stress and just feel awesome. None creates such story. It's really difficult to imagine and write that kind of story.
 > 
 > [Hirotaka Tobi](https://en.wikipedia.org/wiki/Hirotaka_Tobi)
 

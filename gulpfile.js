@@ -157,6 +157,9 @@ gulp.task('pug-front', (done) => {
     contact: '',
     members: [],
   };
+  const css = fs.statSync("docs/css/app.css").mtime;
+  const js = fs.statSync("assets/js/app.js").mtime;
+  const index = fs.statSync("docs/index.html").mtime;
   // Scan md files to compile.
   const files = fs.readdirSync( './manuscripts' );
   files.forEach( file => {
@@ -186,14 +189,18 @@ gulp.task('pug-front', (done) => {
         break;
     }
   });
-  console.log( local );
   // Render HTML
   const compiled = pug.compileFile('pug/index.pug');
   const html = compiled({
     title: 'Dead Channel JP',
     tagline: 'the Sci-Fi writers association in Chiba City',
     desc: 'The sky above the port was the color of television, tuned to a dead channel.',
-    markdown: local
+    markdown: local,
+    time: {
+      css: css.getTime(),
+      js: js.getTime(),
+      index: index.getTime(),
+    }
   });
   return $.file('index.html', html, { src: true })
     .pipe(gulp.dest('docs'));
@@ -207,6 +214,12 @@ gulp.task('bs-watch', () => {
     'docs/img/**/*',
     'docs/**/*.html'
   ], gulp.task('bs-reload'));
+});
+
+// Copy favicon
+gulp.task( 'favicon', () => {
+  return gulp.src( './assets/favicon.ico' )
+    .pipe( gulp.dest('docs'));
 });
 
 // BrowserSync
@@ -226,7 +239,6 @@ gulp.task('bs-reload', (done) => {
   done();
 });
 
-
 // watch
 gulp.task('watch', function () {
   // Make SASS
@@ -244,7 +256,7 @@ gulp.task('watch', function () {
 gulp.task('pug', gulp.series( 'pug-render', 'pug-front'));
 
 // Build
-gulp.task('build', gulp.parallel('js', 'sass', 'copylib', 'imagemin', 'pug'));
+gulp.task('build', gulp.series( gulp.parallel('js', 'sass', 'copylib', 'imagemin', 'pug', 'favicon'), 'pug' ) );
 
 // Browser Sync
 gulp.task( 'bs', gulp.parallel( 'browser-sync', 'bs-watch' ) );

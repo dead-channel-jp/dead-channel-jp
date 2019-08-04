@@ -18,13 +18,50 @@
 
   padding: $section-gap 0;
 
+  &-nav{
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    left: 50%;
+    transform: translateX( -50% );
+    &-list{
+      padding: 0;
+    }
+    &-item{
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    &-link{
+      display: inline-block;
+      padding: 1rem;
+      transition: color .3s ease-in-out;
+      font-family: $font-family-monospace;
+      &:link, &:visited{
+        color: #fff;
+        text-decoration: none;
+      }
+      &:hover, &:active{
+        color: $warning;
+        text-decoration: none;
+      }
+    }
+  }
+
   &-header {
-    background: #000;
     position: relative;
     width: 100%;
-    z-index: -99;
     overflow: hidden;
     height: 100vh;
+
+    &-wrap{
+      background: #000;
+      position: relative;
+      z-index: -99;
+      width: 100%;
+      height: 100%;
+    }
 
     // http://html5backgroundvideos.com/pattern-overlays/
     // or vegas js
@@ -77,17 +114,14 @@
       transform: translate( -50%, -50% );
       z-index: 10;
       padding: $gap;
-      border: 9px double rgba( 255, 255, 255, .2 );
-      background-color: rgba( 255, 255, 255, .05 );
-      color: #fff;
-      text-shadow: 0 0 5px #000;
+      background-color: rgba( 255, 255, 255, .6 );
       font-family: $font-family-monospace;
       text-align: center;
       h1{
-
+        color: $primary;
       }
       blockquote{
-        color: #7e7e7e;
+        color: $primary;
       }
       p{
         margin: 0;
@@ -128,7 +162,7 @@
   }
 
   &-members{
-    background-color: $gray-200;
+    background-color: $primary;
   }
 }
 
@@ -137,7 +171,7 @@
   &-divider{
     padding: $gap 0;
     i{
-      color: $gray-600;
+      color: $white;
       font-size: 80px;
     }
   }
@@ -188,7 +222,7 @@
 
 .member{
   &-title{
-    color: $black;
+    color: $white;
   }
 
   $img-width: 200px;

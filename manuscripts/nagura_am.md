@@ -24,7 +24,7 @@ He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelett
 東浩紀
 -->
 
-> A questions about charaters is a question about love, and also a novel about characters is a philosophical thought experiment about love. Inheriting [Motoko Arai]()'s _"Alternative Sekaikei"_（異セカイ系）, Nagura updates it in this internet environment. This is a new born masterpiece of philosophical characters' novels. Narrative parts written in Kansai dialect are also good!
+> A questions about charaters is a question about love, and also a novel about characters is a philosophical thought experiment about love. Inheriting [Motoko Arai](https://en.wikipedia.org/wiki/Motoko_Arai)'s _"...Speechless"_（…絶句）, Nagura updates it in this internet environment. This is a new born masterpiece of philosophical characters' novels. Narrative parts written in Kansai dialect are also good!
 > 
 > [Hiroki Azuma](https://en.wikipedia.org/wiki/Hiroki_Azuma)
 
@@ -34,6 +34,6 @@ He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelett
 大森望
 -->
 
-> How "Harlem End" can be acceptable? "Alternative Sekaikei" renovates Sekaikei to Naroukei, mix the New Orthodox School Detective Novels, and extends the connections between every possible worlds. This is a strongest wide-screen metafication! The narrator is a very good man to make my tears drop.
+> How "Harlem End" can be acceptable? _"Alternative Sekaikei"_ renovates Sekaikei to Naroukei, mix the New Orthodox School Detective Novels, and extends the connections between every possible worlds. This is a strongest wide-screen metafication! The narrator is a very good man to make my tears drop.
 > 
 > Nozomi Ohmori(A Sci-Fi Anthologist)

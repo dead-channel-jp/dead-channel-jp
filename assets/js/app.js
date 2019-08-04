@@ -20,7 +20,7 @@ const _youtube_id = document.getElementById('front-youtube');
 
 window.onYouTubeIframeAPIReady = () => {
   youtubePlayer = new YT.Player('front-youtube', {
-    videoId: _youtube_id.dataset.youtubeurl,
+    videoId: [ 'xsSg2t7ldEU', 'S2tlc3265TI', '4IquOq0mKVE' ][ Math.floor(Math.random() * 3 ) ],
     playerVars: { // https://developers.google.com/youtube/player_parameters?playerVersion=HTML5
       cc_load_policy: 0, // closed caption
       controls: 0,

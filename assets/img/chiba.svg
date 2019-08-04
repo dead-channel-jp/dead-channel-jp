@@ -3,9 +3,10 @@
 <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 446 570" style="enable-background:new 0 0 446 570;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1D9EFF;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;}
+	.st0{fill:#88A0C4;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;}
 	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;}
 	.st2{fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;}
 </style>
 <title>千葉県行政区画地図 (2013年1月1日)</title>
 <desc>Author: Lincun / 更新：Knua</desc>
@@ -104,4 +105,5 @@
 		 M118,422l-2,2l2-1l1,2L118,422z M117,423h2v1L117,423z M122,413l-1-1l1,4l1-2v2l2-1l-2-1v-3l-3-1l3,2v3L122,413z M146,408l-1-2h-2
 		l-1,2v-2l-2,3h-1l-2,2l5-2l2-3v2l1-1l3,3l-1-3v2L146,408z"/>
 </g>
+<rect id="_x3C_スライス_x3E_" x="116" y="186" class="st3" width="108" height="108"/>
 </svg>

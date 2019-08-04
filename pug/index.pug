@@ -2,15 +2,21 @@ extends _layout
 
 block content
     section.front-header
-        .front-header-overlay
-        .front-header-buffer
-        .front-header-iframe
-            #front-youtube.front-header-youtube(data-youtubeurl='Kxms-OtUXS0')
+        .front-header-wrap
+            .front-header-overlay
+            .front-header-buffer
+            .front-header-iframe
+                #front-youtube.front-header-youtube(data-youtubeurl='Kxms-OtUXS0')
         .front-header-title
             h1 Dead Channel JP
             blockquote.lead
                 p=desc
                 cite Neuromancer —— William Gibson
+        nav.front-nav
+            ul.front-nav-list
+                for label, id in { 'about-us': 'About', members: 'Members', contact: 'Contact' }
+                    li.front-nav-item
+                        a.front-nav-link(href='#' + id)=label
     section#about-us.front-about.front
         .container
             h2.front-title — About US
@@ -51,11 +57,11 @@ block content
 
                     footer.member-contact.text-center
                         if member.twitter
-                            a.btn.btn-outline-primary(href='https://twitter.com/' + member.twitter) twitter
+                            a.btn.btn-info(href='https://twitter.com/' + member.twitter) twitter
                         if member.site
-                            a.btn.btn-outline-success(href=member.site) Web Site
+                            a.btn.btn-success(href=member.site) Web Site
                         if member.site
-                        a.btn.btn-outline-secondary(href='#contact') Contact
+                        a.btn.btn-secondary(href='#contact') Contact
     section#contact.front-contact.front
         .container
             h2.front-title — Contact
