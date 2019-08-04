@@ -2,9 +2,13 @@ language: node_js
 node_js:
 - '10'
 
+secure: "mRv09fWAFP+KXVtwUql47si99yITb1FS1Yk7yq6GxSXhaw4HbHnVMoUjO8MpwHs1wyRiDzC6eAxdNJkNKueTsidmRqika4Y3rn5HfvN7Ge4BSRBjWGx6N0QabY493MaPpbj9tr6cLDQ7qkDnLhgZU/GWE4yNOA8cN26BLdnuBJeMrY1A2VrPnaNGTqbUITrBO5dUupNyATUz5Ro1thjLTlseKBIFvj+Mow7imIe1iQvOvTwbF8BUTb+4NMa3Ku7UB594rBzzMgcE0cGGfVb/XHj02MXBEf96ePC2qB8MEGJAhGydc6Jw8asSxa4WAXTsy+ZusSx9s7h/UWzZ8sYJk3CW63MdAmCYB2prv/u59xAAp7cBHVt0eA79o5So9kcQycBT2f19Rsn8pA2++exuVixP/jPcieWU7IafvGSHCgG/0DBIR8a5I4ToK9OmLfO8ho40GGILuFZSSlBkeGEheY/rIheYUD57ejqvpiDTR2ZVrgB9SgN3IYG9TRiDu5I2nphndNNXm32GYJVphGVMJkA4qrsO4pVhjLxtU7x8co7sGh810KkOX02MmS3I447btLLQ82MnktXO4kGMIp0L+oIXX3c9XzWNpqcYrsWTtLDOK7IjM5/ioDQSoypDyofHegLMrECsaRmm39xeFaeVs6Z943u72zW2QtPwsKdj0Eo="
+
 before_script:
-  - npm install
   - npm run build
 
 script:
   - npm test
+
+after_success:
+  - test $TRAVIS_BRANCH = "master" && bash ./bin/build.sh
