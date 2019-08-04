@@ -4,7 +4,7 @@ title: Contact
 
 ---
 
-### What We Accept
+### Reqeusts We Accept
 
 - Writing
 - Attending to an event
