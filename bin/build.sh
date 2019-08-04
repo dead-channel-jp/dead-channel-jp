@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-set -e
+set -ex
 
 GH_REPO=dead-channel-jp/dead-channel-jp.github.io
 
 git clone https://github.com/$GH_REPO.git web
-rsync -rpt --delete --exclude='.git' --exclude='README.md' --exlude='.gitignore' --exclude='CNAME' --exclude='LICENSE' docs/ web/
+rsync -rpt --delete --exclude='.git' --exclude='README.md' --exclude='.gitignore' --exclude='CNAME' --exclude='LICENSE' docs/ web/
 cd web
 git remote
 git config user.email guy@hametuha.com
