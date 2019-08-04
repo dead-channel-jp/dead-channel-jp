@@ -12,7 +12,7 @@ const pug = require('pug');
 const MarkdownIt = require('markdown-it');
 const meta = require('markdown-it-meta');
 const citation = require('markdown-it-citation');
-
+const readDir = require( 'recursive-readdir-sync' );
 
 // Sass tasks
 gulp.task('sass', () => {
@@ -157,9 +157,13 @@ gulp.task('pug-front', (done) => {
     contact: '',
     members: [],
   };
-  const css = fs.statSync("docs/css/app.css").mtime;
-  const js = fs.statSync("assets/js/app.js").mtime;
-  const index = fs.statSync("docs/index.html").mtime;
+
+  let css = 0;
+  readDir('assets/scss').forEach(file => {
+    const stat = fs.statSync( file ).mtime;
+    css = Math.max( stat.getTime(), css );
+  });
+  const js = fs.statSync("assets/js/app.js").mtime.getTime();
   // Scan md files to compile.
   const files = fs.readdirSync( './manuscripts' );
   files.forEach( file => {
@@ -197,9 +201,8 @@ gulp.task('pug-front', (done) => {
     desc: 'The sky above the port was the color of television, tuned to a dead channel.',
     markdown: local,
     time: {
-      css: css.getTime(),
-      js: js.getTime(),
-      index: index.getTime(),
+      css: css,
+      js: js,
     }
   });
   return $.file('index.html', html, { src: true })
