@@ -125,20 +125,20 @@
   }
 
   &-members{
-    background-color: $primary;
+    background-color: $gray-200;
   }
 }
 
 .member{
   &-title{
-    color: #fff;
+    color: $black;
   }
 
   $img-width: 200px;
-  margin-bottom: $gap;
+  margin-bottom: $gap * 2;
   padding: $gap / 2;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba( 0, 0, 0, .2);
+  box-shadow: 0 0 $gap / 2 rgba( 0, 0, 0, .2);
   &-header{
     display: flex;
     align-items: center;
@@ -186,6 +186,11 @@
         display: inline;
       }
     }
+    h5{
+      font-size: 1em;
+      color: $gray-600;
+      font-weight: bold;
+    }
     p{
       line-height: 1.6;
     }
@@ -196,6 +201,9 @@
       li{
         margin: 1em 0;
       }
+    }
+    strong{
+      font-family: bold;
     }
     em{
       font-family: $font-family-serif;

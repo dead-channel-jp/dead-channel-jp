@@ -52,6 +52,6 @@ He likes fantasy, Sci-Fi, and kafkaesque. He is also a fan of writers like Kurt 
 — 円城塔
 -->
 
-> Unfortunately genius. Surprising skils. Sentences are overwhelmming as a new comer, metaphors break your stereotypes. His theses seems like a fish story accidentally born in conversations, but it goes far as it grows like an egg breaks it's own shell. It's not neither a boring moral nor a sob story, but it displays a landscape outside of laughing, which you have never seen.
+> Unfortunately genius. Surprising skills. Sentences are overwhelmming as a new comer, metaphors break your stereotypes. His theses seems like a fish story accidentally born in conversations, but it goes far as it grows like an egg breaks it's own shell. It's not neither a boring moral nor a sob story, but it displays a landscape outside of laughing, which you have never seen.
 > 
 > [Toe EnJoe](https://en.wikipedia.org/wiki/Toh_EnJoe)

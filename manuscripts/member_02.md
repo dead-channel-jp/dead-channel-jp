@@ -17,7 +17,7 @@ twitter: takahashifumiki
 
 Fumiki Takahashi is a Japanese writer, a web developer, and a father of four children. Born in Chiba city at August 16th, 1979. Studied French literature at the University of Tokyo to trace his literary idle Kenzaburo Oe. In 2001 at his age of 21, started his career with a fiction about incest _"Stop Over"_. In 2007, got the Shincho Fresh Award with _"Aureliano is coming"_. In same year, he founded literary web magazine [Hametuha](https://hametuha.com) and started efforts for e-publishing. [Kyouichi Sagawa](https://twitter.com/kyoichi_sagawa), [Sayo Ononda](https://twitter.com/pigya), and [Juan.B](https://twitter.com/GreatJuanism) are new talents grown up there.
 
-He started writing Sci-Fi in 2016. Participating in Genron Ohomori Nozomi Sci-Fi Workshop, he got the Hirotaka Tobi Awarad with _"Until Yesterday"_. He also organizes a Sci-Fi magazine [Sci-Fire](https://scifire.org) with alumni of Genron School and Sci-Fi podcasting [Dahlgren Radio](https://itunes.apple.com/jp/podcast/%E3%83%80%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/id1251322835?mt=2). His recent work _"Mind Your P's and Q's"_ is collected in "The Best Collection of Short Stories 2018". 
+He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi Workshop, he got the Hirotaka Tobi Awarad with _"Until Yesterday"_. He also organizes a Sci-Fi magazine [Sci-Fire](https://scifire.org) with alumni of Genron School and Sci-Fi podcasting [Dahlgren Radio](https://itunes.apple.com/jp/podcast/%E3%83%80%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/id1251322835?mt=2). His recent work _"Mind Your P's and Q's"_ is collected in "The Best Collection of Short Stories 2018". 
 
 #### List of Works
 
