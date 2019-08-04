@@ -11,6 +11,6 @@ git remote
 git config user.email guy@hametuha.com
 git config user.name fumikito
 git add .
-git commit -m "Deploy ${TRAVIS_COMMIT}"
-git push "https://${GITHUB_TOKEN}@github.com/${GH_REPO}" master
+git commit -m "Deploy $TRAVIS_COMMIT"
+git push "https://$GITHUB_TOKEN@github.com/$GH_REPO" master
 cd ..
