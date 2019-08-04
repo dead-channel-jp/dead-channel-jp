@@ -24,7 +24,7 @@ He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelett
 東浩紀
 -->
 
-> A questions about charaters is a question about love, and also a novel about characters is a philosophical thought experiment about love. Inheriting [Motoko Arai](https://en.wikipedia.org/wiki/Motoko_Arai)'s _"...Speechless"_（…絶句）, Nagura updates it in this internet environment. This is a new born masterpiece of philosophical characters' novels. Narrative parts written in Kansai dialect are also good!
+> A question about charaters is a question about love, and also a novel about characters is a philosophical thought experiment about love. Inheriting [Motoko Arai](https://en.wikipedia.org/wiki/Motoko_Arai)'s _"...Speechless"_（…絶句）, Nagura updates it in this internet environment. This is a new born masterpiece of philosophical characters' novels. Narrative parts written in Kansai dialect are also good!
 > 
 > [Hiroki Azuma](https://en.wikipedia.org/wiki/Hiroki_Azuma)
 
