@@ -48,3 +48,15 @@ window.onYouTubeIframeAPIReady = () => {
     }
   });
 };
+
+$(document).ready(function(){
+  let headerHeight = 0;
+  $('a[href^="#"]').click( function( e ) {
+    e.preventDefault();
+    const speed = 400;
+    const href= $(this).attr("href");
+    const target = jQuery( '#' === href ? 'html' : href );
+    const position = target.offset().top - headerHeight;
+    $( 'body,html' ).animate({scrollTop:position}, speed, 'swing');
+  });
+});

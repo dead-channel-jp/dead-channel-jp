@@ -8,7 +8,10 @@
     color: $primary;
     text-decoration: none;
   }
+}
 
+%card-shadow{
+  box-shadow: 0 0 $gap / 2 rgba( 0, 0, 0, .2);
 }
 
 .front {
@@ -129,6 +132,60 @@
   }
 }
 
+.members{
+
+  &-divider{
+    padding: $gap 0;
+    i{
+      color: $gray-600;
+      font-size: 80px;
+    }
+  }
+
+  &-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: $gap 0;
+    padding: 0;
+  }
+
+  &-card{
+    width: 200px;
+    margin: 0 $gap / 2;
+    background-color: $white;
+    list-style: none;
+    text-align: center;
+    &-link{
+      display: block;
+      padding: $gap $gap / 2;
+      @extend %card-shadow;
+      font-family: $font-family-monospace;
+      transition: color .3s ease-in-out, background-color .3s ease-in-out;
+      &:link, &:visited{
+        text-decoration: none;
+        color: $black;
+        background-color: transparent;
+      }
+      &:hover, &:active{
+        text-decoration: none;
+        background-color: $gray-100;
+        color: $link-color;
+      }
+    }
+    &-img{
+      width: auto;
+      height: auto;
+      max-width: 100px;
+      border-radius: 100%;
+      margin-bottom: $gap / 2;
+    }
+    &-name{
+      display: block;
+    }
+  }
+}
+
 .member{
   &-title{
     color: $black;
@@ -136,9 +193,9 @@
 
   $img-width: 200px;
   margin-bottom: $gap * 2;
-  padding: $gap / 2;
-  background-color: #fff;
-  box-shadow: 0 0 $gap / 2 rgba( 0, 0, 0, .2);
+  padding: $gap $gap / 2;
+  background-color: $white;
+  @extend %card-shadow;
   &-header{
     display: flex;
     align-items: center;
@@ -259,4 +316,17 @@
       margin-left: 1em;
     }
   }
+}
+
+.contact{
+
+  &-content{
+
+    h3{
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+  }
+
 }

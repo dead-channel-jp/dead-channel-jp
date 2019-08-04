@@ -30,7 +30,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 
 ##### English
 
-- _“To the Last Drop”_（とどめの一滴）, tlanslated by Toshi Kamei, 2019 [Bewildering Stories](http://www.bewilderingstories.com/issue813/last_drop.html)
+- _“To the Last Drop”_（とどめの一滴）, tlanslated by Toshiya Kamei, 2019 [Bewildering Stories](http://www.bewilderingstories.com/issue813/last_drop.html)
 - _“A Homeroom Meeting”_（かえりの会）, tlanslated by Toshiya Kamei, 2019 [Another Chicago Magazine](https://anotherchicagomagazine.net/2019/07/23/a-homeroom-meeting-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei-2/)
 
 

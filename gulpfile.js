@@ -154,6 +154,7 @@ gulp.task('pug-front', (done) => {
   // Add markdown-it-meta
   const local = {
     about: '',
+    contact: '',
     members: [],
   };
   // Scan md files to compile.
@@ -169,6 +170,9 @@ gulp.task('pug-front', (done) => {
       case 'about.md':
         local.about = rendered;
         break;
+      case 'contact.md':
+        local.contact = rendered;
+        break;
       default:
         local.members.push( Object.assign({
           name: "",
@@ -177,6 +181,7 @@ gulp.task('pug-front', (done) => {
           site: "",
           twitter: "",
           html: rendered,
+          id: file.replace( '.md', '' ),
         }, md.meta));
         break;
     }

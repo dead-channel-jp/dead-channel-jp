@@ -11,7 +11,7 @@ block content
             blockquote.lead
                 p=desc
                 cite Neuromancer —— William Gibson
-    section.front-about.front
+    section#about-us.front-about.front
         .container
             h2.front-title — About US
             .row
@@ -27,21 +27,28 @@ block content
                     .front-about-us
                         p.lead=title + ' = ' + tagline
                         .front-about-content!=markdown.about
-    section.front-members.front
+    section#members.front-members.front
         .container
             h2.front-title.member-title — Members
-            p.member-list
+            ul.members-cards
                 each member, index in markdown.members
-                    a.member-list-link( href='#' )=member.name
+                    li.members-card
+                        a.members-card-link( href='#' + member.id )
+                            img.members-card-img(src="img/" + member.photo alt=member.name)
+                            span.members-card-name=member.name
+            .members-divider.text-center
+                i.fa.fa-chevron-down
             each member, index in markdown.members
-                article.member
+                article.member(id=member.id)
                     header.member-header
                         .member-photo
-                            img.member-img(src="img/" + member.photo, alt=member.name)
+                            img.member-img(src="img/" + member.photo alt=member.name)
                         h3.member-name
                             span=member.name
                             small=member.name_ja
+
                     .member-content!=member.html
+
                     footer.member-contact.text-center
                         if member.twitter
                             a.btn.btn-outline-primary(href='https://twitter.com/' + member.twitter) twitter
@@ -54,7 +61,7 @@ block content
             h2.front-title — Contact
             .row
                 .col-xs-12.col-md-6
-                    p Contact form here
+                    .contact-content!=markdown.contact
                 .col-xs-12.col-md-6
                     .form-hubspot
                         script( src='//js.hsforms.net/forms/shell.js' )
