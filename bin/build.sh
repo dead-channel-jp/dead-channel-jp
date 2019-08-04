@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -ex
+set -e
 
 GH_REPO=dead-channel-jp/dead-channel-jp.github.io
 
