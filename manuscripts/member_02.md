@@ -21,10 +21,18 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohomori Nozomi Sci-Fi
 
 #### List of Works
 
+##### Japanese
+
 - _“Stop Over”_（途中下車）, 2001 Gentosha, Winning **Gentosha 1st NET Students Literature Award** Granprix
 - _“Aureliano is coming”_（アウレリャーノがやってくる）, 2007 Shinchosha, Winning **The 39th Shincho Fresh Award** Grandprix
 - _“Until Yesterday”_（昨日までのこと）, 2017 Genron, Winning **Genron SF Fresh Award** Hirotaka Tobi Prize
 - _“Mind your P’s and Q’s”_（pとqには気をつけて）, 2018 Shueisha, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten
+
+##### English
+
+- _“To the Last Drop”_（とどめの一滴）, tlanslated by Toshi Kamei, 2019 [Bewildering Stories](http://www.bewilderingstories.com/issue813/last_drop.html)
+- _“A Homeroom Meeting”_（かえりの会）, tlanslated by Toshiya Kamei, 2019 [Another Chicago Magazine](https://anotherchicagomagazine.net/2019/07/23/a-homeroom-meeting-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei-2/)
+
 
 #### Testimonials
 

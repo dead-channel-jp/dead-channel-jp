@@ -22,6 +22,8 @@ Studying at the university in 2015, he won **the 3rd Hayakawa Sci-Fi Contest** w
 
 - _"This side of Eutronica"_（ユートロニカのこちら側）, 2019 Hayakawa Books, won **the 3rd Hayakawa Sci-Fi Contest**
 - _"Game Kingdom"_（ゲームの王国）, 2017 Hayakawa Books, won **the 38th Japan Sci-Fi Award** Grandprix and **the 31st Yamamoto Shugoro Award**
+- _“the Last Bad Boy”_（最後の不良）, 2017 CCC Media House, Collected in “Sci-Fi Best Collection of This Year: Project Sharlock”, 2018 Tokyo Sogensha
+- _“the Magician”_（魔術師）, 2018 Hayakawa Books, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten
 
 #### Testimonials
 
