@@ -9,7 +9,7 @@ photo: nagura.png
 
 #### Bio
 
-Am Nagra is a writer good at metafications including Sci-Fi and Mystery. Born in Kyoto at July 23rd, 1989. Living in Chiba City. Studied physics at Tokyo Metropolitan University. He likes and his pen name is an anagram of "anagram".
+Am Nagra is a writer good at metafications including Sci-Fi and Mystery. Born in Kyoto at July 23rd, 1989. Living in Chiba City. Studied physics at Tokyo Metropolitan University. He likes wordplay appearing in his pen name, which is an anagram of "anagram".
 
 He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelettes every month. After graduation, he won the 58th Mephisto Award. Hits first book _"Alternative Sekaikei"_ is a conjunction of Sekaikei and Naroukei which are 2 major type in Japanese fictions. It evokes philosophical questions about relationships and ethics between authors and characters.
 
