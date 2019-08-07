@@ -17,7 +17,7 @@ He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelett
 
 - _"Alternative Sekaikei"_（異セカイ系）, 2018 Kodansha, won **the 58th Mephisto Award**
 
-#### Testimonials
+#### Selected Reviews
 
 <!--
 キャラクターの問題は愛の問題であり、キャラクターをめぐる小説は愛をめぐる哲学の試みである。新井素子『……絶句』を継承し、ネット環境でアップデートする、キャラクター小説＝哲学の新たな傑作が誕生。関西弁の地の文もいいよ！

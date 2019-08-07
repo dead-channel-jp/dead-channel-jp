@@ -27,7 +27,7 @@ He likes fantasy, Sci-Fi, and kafkaesque. He is also a fan of writers like Kurt 
 - _“White and Black Darby”_（白黒ダービー小史） 2017 Tokyo Sogensha, finalist of **the 49th Seiun Award Short Story Section**
 - _“19329 Daisuke Yoshida”_（吉田同名） 2016 Tokyo Sogensha, won **the 7th Sogen SF Short Story Award**, nominee of **the 48th Seiun Award**
 
-#### Testimonials
+#### Selected Reviews
 
 <!--
 カルヴィーノ、コルタサル、ミルハウザー、セス・フリードなど様々な作家名が頭によぎるが、石川宗生の小説では、ありえない事態とその過程で生じるコペルニクス的転回を描く手つきが独特で、その読み味を知った今では次の作品を読むのがただ待ち遠しい。
