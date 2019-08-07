@@ -34,7 +34,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 - _“A Homeroom Meeting”_（かえりの会）, tlanslated by Toshiya Kamei, 2019 [Another Chicago Magazine](https://anotherchicagomagazine.net/2019/07/23/a-homeroom-meeting-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei-2/)
 
 
-#### Testimonials
+#### Selected Reviews
 
 <!--
 とにかく、これだけ大勢の人物たちが入り乱れる話を、破綻させることなく最後まで引っ張って、一つの形に仕上げた力は本物だと思う。もしかすると高橋さんは、私などが考えるよりももっともっとスケールの大きな小説へ向かって、歩き出そうとしているのかもしれない。
@@ -49,7 +49,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 高橋さんは何を書かせてもまあうまい。キャラも書けるし、 文学的な含みも感じさせるし、何でもできる感じ。どこにもストレスを感じさせずに、べらぼうに上手いものを読んだ印象が残る。こんなことを考える人はいないし、一からあれを思いついて書けるというのは、大変なもの。 — 飛浩隆
 -->
 
-> (About _“Mind your P’s and Q’s”_) Takahashi writes any kind of stories very well. His characters animate and he also has literary profundity. He seems to be able to write anything. I read without any stress and just feel awesome. None creates such story. It's really difficult to imagine and write that kind of story.
+> (About _“Mind your P’s and Q’s”_) Takahashi writes any kind of stories very well. His characters are animated and he also has literary profundity. He seems to be able to write anything. I read without any stress and just feel awesome. None creates such story. It's really difficult to imagine and write that kind of story.
 > 
 > [Hirotaka Tobi](https://en.wikipedia.org/wiki/Hirotaka_Tobi)
 

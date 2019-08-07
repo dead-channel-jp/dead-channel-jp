@@ -25,7 +25,7 @@ Studying at the university in 2015, he won **the 3rd Hayakawa Sci-Fi Contest** w
 - _“the Last Bad Boy”_（最後の不良）, 2017 CCC Media House, Collected in “Sci-Fi Best Collection of This Year: Project Sharlock”, 2018 Tokyo Sogensha
 - _“the Magician”_（魔術師）, 2018 Hayakawa Books, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten
 
-#### Testimonials
+#### Selected Reviews
 
 <!--
 すごい才能の新人がいる、と感嘆し「小川さん、小説界を救ってください！」という気持ちになりました。
