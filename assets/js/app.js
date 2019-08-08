@@ -38,7 +38,7 @@ window.onYouTubeIframeAPIReady = () => {
       },
       'onStateChange': (event ) => {
         if (event.data == YT.PlayerState.PLAYING) {
-          $( '.front-header-buffer' ).addClass( 'done' );
+          $( '.front-header' ).addClass( 'done' );
         }
 
         if (event.data == YT.PlayerState.ENDED) { // loop video
