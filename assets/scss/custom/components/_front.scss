@@ -18,43 +18,11 @@
 
   padding: $section-gap 0;
 
-  &-nav{
-    position: absolute;
-    z-index: 9999;
-    bottom: 0;
-    left: 50%;
-    transform: translateX( -50% );
-    &-list{
-      padding: 0;
-    }
-    &-item{
-      display: inline-block;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    &-link{
-      display: inline-block;
-      padding: 1rem;
-      transition: color .3s ease-in-out;
-      font-family: $font-family-monospace;
-      &:link, &:visited{
-        color: #fff;
-        text-decoration: none;
-      }
-      &:hover, &:active{
-        color: $warning;
-        text-decoration: none;
-      }
-    }
-  }
-
   &-header {
     position: relative;
     width: 100%;
     overflow: hidden;
     height: 100vh;
-
     &-wrap{
       background: $primary;
       position: relative;
@@ -103,8 +71,13 @@
       position: absolute;
       pointer-events: none;
       margin: 0 auto;
-      width: 150vw;
-      height: 300vh;
+
+      width: 120vw / 9 * 16;
+      height: 120vh;
+      .vertical{
+        width: 200vw;
+        height: 200vh / 16 * 9;
+      }
     }
 
     &-title{
@@ -119,6 +92,21 @@
       color: $white;
       background-color: transparent;
       transition: color 1s ease-in, background-color 1s ease-in;
+      @include media-breakpoint-down(sm){
+        padding: $gap / 2;
+        width: 70%;
+        h1{
+          font-size: 1.4em;
+        }
+        blockquote{
+          p{
+            font-size: 0.7em;
+          }
+          cite{
+            font-size: 0.5em;
+          }
+        }
+      }
       .done &{
         background-color: rgba( 255, 255, 255, .6 );
         color: $primary;
@@ -129,6 +117,38 @@
       cite{
         font-size: 0.85em;
         display: block;
+      }
+    }
+  }
+  &-nav{
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translateX( -50% );
+    &-list{
+      text-align: center;
+      padding: 0;
+    }
+    &-item{
+      display: inline-block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    &-link{
+      display: inline-block;
+      padding: 1rem;
+      transition: color .3s ease-in-out;
+      font-family: $font-family-monospace;
+      &:link, &:visited{
+        color: #fff;
+        text-decoration: none;
+      }
+      &:hover, &:active{
+        color: $warning;
+        text-decoration: none;
       }
     }
   }
@@ -187,13 +207,12 @@
 
   &-card{
     width: 200px;
-    margin: 0 $gap / 2 $gap;
+    margin: 0 $gap / 4 $gap / 2;
     background-color: $white;
     list-style: none;
     text-align: center;
     @include media-breakpoint-down( sm ) {
       width: 100px;
-      margin: 0 $gap / 4 $gap / 2;
     }
     &-link{
       display: block;

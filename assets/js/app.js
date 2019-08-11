@@ -18,6 +18,23 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 let youtubePlayer;
 const _youtube_id = document.getElementById('front-youtube');
 
+/**
+ * Detect if screen is vertical
+ *
+ * @returns {boolean}
+ */
+function screenVertical() {
+  return 1 > window.innerWidth / window.innerHeight;
+}
+
+function assignWindowSize() {
+  if ( screenVertical() ) {
+    $('#front-youtube').addClass('vertical');
+  } else {
+    $('#front-youtube').removeClass('vertical');
+  }
+}
+
 window.onYouTubeIframeAPIReady = () => {
   youtubePlayer = new YT.Player('front-youtube', {
     videoId: [ 'xsSg2t7ldEU', 'S2tlc3265TI', '4IquOq0mKVE' ][ Math.floor(Math.random() * 3 ) ],
@@ -50,6 +67,7 @@ window.onYouTubeIframeAPIReady = () => {
 };
 
 $(document).ready(function(){
+  //  smooth scroll.
   let headerHeight = 0;
   $('a[href^="#"]').click( function( e ) {
     e.preventDefault();
@@ -59,4 +77,13 @@ $(document).ready(function(){
     const position = target.offset().top - headerHeight;
     $( 'body,html' ).animate({scrollTop:position}, speed, 'swing');
   });
+  // Detect height.
+  assignWindowSize();
+  let timer;
+  $( window ).resize( () => {
+    if ( timer ) {
+      clearTimeout( timer );
+    }
+    timer = setTimeout( assignWindowSize, 100 );
+  } );
 });
