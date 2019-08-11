@@ -103,8 +103,8 @@
       position: absolute;
       pointer-events: none;
       margin: 0 auto;
+      width: 150vw;
       height: 300vh;
-      width: 120vw;
     }
 
     &-title{
@@ -156,6 +156,7 @@
   }
 
   &-chiba{
+    margin-bottom: $gap;
     &-caption{
       font-size: 11px;
     }
@@ -186,13 +187,20 @@
 
   &-card{
     width: 200px;
-    margin: 0 $gap / 2;
+    margin: 0 $gap / 2 $gap;
     background-color: $white;
     list-style: none;
     text-align: center;
+    @include media-breakpoint-down( sm ) {
+      width: 100px;
+      margin: 0 $gap / 4 $gap / 2;
+    }
     &-link{
       display: block;
       padding: $gap $gap / 2;
+      @include media-breakpoint-down( sm ) {
+        padding: $gap / 2 $gap / 4;
+      }
       @extend %card-shadow;
       font-family: $font-family-monospace;
       transition: color .3s ease-in-out, background-color .3s ease-in-out;
@@ -210,9 +218,13 @@
     &-img{
       width: auto;
       height: auto;
-      max-width: 100px;
       border-radius: 100%;
+      max-width: 100px;
       margin-bottom: $gap / 2;
+      @include media-breakpoint-down( sm ) {
+        max-width: 60px;
+        margin-bottom: $gap / 4;
+      }
     }
     &-name{
       display: block;
@@ -227,7 +239,10 @@
 
   $img-width: 200px;
   margin-bottom: $gap * 2;
-  padding: $gap $gap / 2;
+  padding: $gap;
+  @include media-breakpoint-down( sm ) {
+    padding: $gap $gap / 2;
+  }
   background-color: $white;
   @extend %card-shadow;
   &-header{
@@ -241,6 +256,9 @@
 
   &-photo{
     flex: 0 0 200px;
+    @include media-breakpoint-down( sm ) {
+      flex: 0 0 80px;
+    }
   }
 
   &-img{
@@ -251,16 +269,26 @@
 
   &-name{
     font-size: 3rem;
+    @include media-breakpoint-down( sm ) {
+      font-size: 1.4rem;
+    }
     padding: 0 $gap / 2;
     small{
       margin-left: 2em;
+      @include media-breakpoint-down( sm ) {
+        display: block;
+        margin-left: 0;
+      }
       color: $gray-700;
       font-size: 1rem;
     }
   }
 
   &-content{
-    padding: 0 3rem $gap;
+    padding: 0 0 $gap;
+    @include media-breakpoint-down( sm ) {
+      font-size: 0.85em;
+    }
     &-after{
       content: "";
       display: block;
@@ -289,6 +317,9 @@
       @extend %inline-link;
     }
     ul{
+      @include media-breakpoint-down( sm ) {
+        padding-left: 1em;
+      }
       li{
         margin: 1em 0;
       }
@@ -305,12 +336,16 @@
       position: relative;
       padding: 2em;
       font-size: 1.2em;
+      @include media-breakpoint-down( sm ) {
+        font-size: 1em;
+      }
       margin: 2em 0;
       &:before, &:after{
         position: absolute;
         font-size: 80px;
         color: $gray-200;
         font-family: $font-family-serif;
+        z-index: 2;
       }
       &:before{
         content: "“";
@@ -321,6 +356,10 @@
         content: "”";
         bottom: 0;
         right: 0;
+      }
+      p {
+        position: relative;
+        z-index: 3;
       }
       p:last-child{
         font-size: 0.85em;
@@ -348,6 +387,16 @@
     }
     a + a{
       margin-left: 1em;
+      @include media-breakpoint-down( sm ) {
+        margin-left: 0;
+      }
+    }
+    a{
+      @include media-breakpoint-down( sm ) {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.25em;
+      }
     }
   }
 }
@@ -355,7 +404,11 @@
 .contact{
 
   &-content{
-
+    margin-bottom: $gap / 2;
+    padding-bottom: $gap / 2;
+    @include media-breakpoint-down( md ){
+      border-bottom: 3px double $gray-200;
+    }
     h3{
       font-size: 1em;
       font-weight: bold;
