@@ -21,7 +21,7 @@ The only 1 requirement for writers is one of below:
 - Living or having lived in Chiba City.
 - Done working or going to School in Chiba City before. 
 
-### Purpos
+### Purpose
 
 <!--
 ・地縁のある作家の相互扶助を促進する。
@@ -29,10 +29,9 @@ The only 1 requirement for writers is one of below:
 -->
 
 - Helping each other as authors in one little city.
-- Promoting to both localy and globaly to make their activities recognizable.
-- Playing an important role of the Sci-Fi culture in Chiba City.
+- Promoting both locally and globally to make their activities recognizable.
+- Playing an important role in the Sci-Fi culture in Chiba City.
 
 ### Why we quote from "Neuromancer"?
 
 One of the most famous lines of Sience Fiction describes the sky of Chiba City!
-
