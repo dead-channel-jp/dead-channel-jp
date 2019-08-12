@@ -9,7 +9,7 @@ DCJPは日本国千葉県千葉市に縁のあるプロSF作家の協会です�
 -->
 
 Dead Channel JP is an association of professional Sci-Fi writers who have relationships with Chiba City.
-The only 1 requirement for writers is one of below:
+Sci-fi writers may qualify for membership in any of the following ways.
 
 <!--
 ・千葉市出身である。
@@ -19,7 +19,7 @@ The only 1 requirement for writers is one of below:
 
 - Born in Chiba City.
 - Living or having lived in Chiba City.
-- Done working or going to School in Chiba City before. 
+- Working or attending school / having worked or attended school in Chiba City.
 
 ### Purpose
 
