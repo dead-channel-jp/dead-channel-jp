@@ -34,6 +34,7 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 
 - _“To the Last Drop”_（とどめの一滴）, tlanslated by Toshiya Kamei, 2019 [Bewildering Stories](http://www.bewilderingstories.com/issue813/last_drop.html)
 - _“A Homeroom Meeting”_（かえりの会）, tlanslated by Toshiya Kamei, 2019 [Another Chicago Magazine](https://anotherchicagomagazine.net/2019/07/23/a-homeroom-meeting-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei-2/)
+- _“All About Youth”_（若者のすべて）, translated by Toshiya Kamei, 2019 [LIT Magazine](http://www.litmagazine.org/2019/11/25/all-about-youth-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei/)
 - _“At the Church”_（教会にて）, tlanslated by Toshiya Kamei, 2020 March [Eckleburg Review](https://www.eckleburg.org/eckleburg-no-21/)
 - _“Blood Runs Deep”_（ラッシュ・ブラッド）, tlanslated by Toshiya Kamei, 2020 March“Mount Hope"
 - _“A Great Song You've Never Heard Before”_（いい曲だけど名前は知らない）, tlanslated by Toshiya Kamei, 2020 April [Asymptote](https://www.asymptotejournal.com/fiction/fumiki-takahashi-a-great-song-youve-never-heard-before/)
@@ -44,7 +45,6 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 #### Spanish
 
 - _“Hasta la última gota”_（とどめの一滴）, tlanslated by Toshiya Kamei, 2020 January [Korad](https://korad.cubava.cu/2020/01/13/ya-se-puede-descargar-korad-35/)
-
 
 #### Selected Reviews
 
