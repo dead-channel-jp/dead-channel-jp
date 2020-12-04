@@ -9,6 +9,12 @@ photo: nagura.png
 
 #### Bio
 
+<!--
+名倉編はメタフィクション、SF、ミステリーを得意とする作家。1989年7月23日京都生まれ。千葉市在住。東京都立大学で物理学を学ぶ。「アナグラム」のアナグラムであるペンネームからも分かる通り、言葉遊びが得意。
+
+2016年、大森望ゲンロンSF創作講座に参加し、毎月短編小説を書く。卒業後、第58回メフィスト賞を受賞。処女作『異セカイ系』は日本の二大フィクションジャンルをであるセカイ系となろう系のマッシュアップである。同作では作者とキャラクターにおける倫理という哲学的な命題に取り組んでいる。
+-->
+
 Am Nagra is a writer good at metafications including Sci-Fi and Mystery. Born in Kyoto at July 23rd, 1989. Living in Chiba City. Studied physics at Tokyo Metropolitan University. He likes wordplay appearing in his pen name, which is an anagram of "anagram".
 
 He participated Genron Ohomori Nozomi Sci-Fi Workshop in 2016 and wrote novelettes every month. After graduation, he won the 58th Mephisto Award. Hits first book _"Alternative Sekaikei"_ is a conjunction of Sekaikei and Naroukei which are 2 major type in Japanese fictions. It evokes philosophical questions about relationships and ethics between authors and characters.
