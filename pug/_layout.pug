@@ -13,14 +13,14 @@ html(lang='en')
     link(rel="icon" type="image/png" href="/img/icon-192x192.png")
     link(rel='canonical' href='https://dead-channel.jp' )
     link(rel='stylesheet' href='/css/app.css?t=' + time.css)
-    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans|Noto+Serif&display=swap')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans|Noto+Serif&display=swap' media="print" onload="this.media='all'")
     script(async=true, src='https://www.googletagmanager.com/gtag/js?id=UA-1766751-16')
     script
         | window.dataLayer = window.dataLayer || [];
         | function gtag(){dataLayer.push(arguments);}
         | gtag('js', new Date());
         | gtag('config', 'UA-1766751-16');
-    script(src='https://kit.fontawesome.com/ce09d2f53e.js')
+    script(defer, src='https://kit.fontawesome.com/ce09d2f53e.js')
   body
     block content
     footer.footer
@@ -28,8 +28,8 @@ html(lang='en')
             p.footer-copy.text-center
                 | &copy; 2019&nbsp;
                 a(href="/" rel='home') Dead Channel JP
-    script(src='/js/jquery.min.js')
-    script(src='/js/popper.min.js')
-    script(src='/js/bootstrap.min.js')
-    script(src='/js/app.js?t=' + time.js)
+    script(defer, src='/js/jquery.min.js')
+    //script(defer, src='/js/popper.min.js')
+    //script(defer, src='/js/bootstrap.min.js')
+    script(defer, src='/js/app.js?t=' + time.js)
     script#hs-script-loader(async, defer, src="//js.hs-scripts.com/5114573.js")
