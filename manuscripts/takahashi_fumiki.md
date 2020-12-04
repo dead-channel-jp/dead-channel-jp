@@ -27,11 +27,23 @@ He started writing Sci-Fi in 2016. Participating in Genron Ohmori Nozomi Sci-Fi 
 - _“Aureliano is coming”_（アウレリャーノがやってくる）, 2007 Shinchosha, Winning **The 39th Shincho Fresh Award** Grandprix
 - _“Until Yesterday”_（昨日までのこと）, 2017 Genron, Winning **Genron SF Fresh Award** Hirotaka Tobi Prize
 - _“Mind your P’s and Q’s”_（pとqには気をつけて）, 2018 Shueisha, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten
+- _“Mind your P’s and Q’s”_（pとqには気をつけて）, 2018 Shueisha, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten
+- _“Too silent to listen”_（静かすぎて聞こえない）, 2020 Shueisha, "Shosets Subaru 2020 January"
 
 ##### English
 
 - _“To the Last Drop”_（とどめの一滴）, tlanslated by Toshiya Kamei, 2019 [Bewildering Stories](http://www.bewilderingstories.com/issue813/last_drop.html)
 - _“A Homeroom Meeting”_（かえりの会）, tlanslated by Toshiya Kamei, 2019 [Another Chicago Magazine](https://anotherchicagomagazine.net/2019/07/23/a-homeroom-meeting-by-fumiki-takahashi-translated-from-the-japanese-by-toshiya-kamei-2/)
+- _“At the Church”_（教会にて）, tlanslated by Toshiya Kamei, 2020 March [Eckleburg Review](https://www.eckleburg.org/eckleburg-no-21/)
+- _“Blood Runs Deep”_（ラッシュ・ブラッド）, tlanslated by Toshiya Kamei, 2020 March“Mount Hope"
+- _“A Great Song You've Never Heard Before”_（いい曲だけど名前は知らない）, tlanslated by Toshiya Kamei, 2020 April [Asymptote](https://www.asymptotejournal.com/fiction/fumiki-takahashi-a-great-song-youve-never-heard-before/)
+- _“Shining White”_（輝ける白）, tlanslated by Toshiya Kamei, 2020 July [GHLL](http://web.archive.org/web/20200710025652/http://ghll.truman.edu/ghll31/Takahashi%20Shining%20White.html)
+- _“Days Before Yesterday”_（昨日までのこと）, tlanslated by Toshiya Kamei, “Aurelia Leo”2020
+- _“Grown-Ups Don't Give Way”_（大人はゆずってくれない）, tlanslated by Toshiya Kamei, “Gargoyle Magazine”2020
+
+#### Spanish
+
+- _“Hasta la última gota”_（とどめの一滴）, tlanslated by Toshiya Kamei, 2020 January [Korad](https://korad.cubava.cu/2020/01/13/ya-se-puede-descargar-korad-35/)
 
 
 #### Selected Reviews

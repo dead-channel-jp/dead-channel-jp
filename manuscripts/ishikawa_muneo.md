@@ -26,6 +26,7 @@ He likes fantasy, Sci-Fi, and kafkaesque. He is also a fan of writers like Kurt 
 - _“Cloven World”_（半分世界）, 2018 Tokyo Sogensha, finalist of **the 39th Japan SF Grand Prize**
 - _“White and Black Darby”_（白黒ダービー小史） 2017 Tokyo Sogensha, finalist of **the 49th Seiun Award Short Story Section**
 - _“19329 Daisuke Yoshida”_（吉田同名） 2016 Tokyo Sogensha, won **the 7th Sogen SF Short Story Award**, nominee of **the 48th Seiun Award**
+- _“Hotel Arcadia”_（ホテル・アルカディア） 2020 Shueisha, won **the 30th Bunkamura DEUX MAGOTS Award**
 
 #### Selected Reviews
 
