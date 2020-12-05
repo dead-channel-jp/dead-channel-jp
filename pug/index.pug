@@ -23,7 +23,7 @@ block content
             .row
                 .col-xs-12.col-md-4
                     figure.front-chiba
-                        img.front-chiba-img( src='/img/chiba.svg' )
+                        img.front-chiba-img( src='/img/chiba.svg' loading='lazy' )
                         figcaption.front-chiba-caption
                             | Map by&nbsp;
                             a(href='https://commons.wikimedia.org/wiki/File:Map_of_Chiba_Prefecture_Ja.svg') Lincun&nbsp;
@@ -48,7 +48,7 @@ block content
                 article.member(id=member.id)
                     header.member-header
                         .member-photo
-                            img.member-img(src="img/" + member.photo alt=member.name)
+                            img.member-img(src="img/" + member.photo alt=member.name loading='lazy')
                         h3.member-name
                             span=member.name
                             small=member.name_ja
