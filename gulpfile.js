@@ -146,8 +146,32 @@ gulp.task('pug-extract', (done) => {
   done();
 });
 
-gulp.task('pug-render', (done) => {
-  done();
+const assetInfo = () => {
+  let css = 0;
+  readDir('assets/scss').forEach(file => {
+    const stat = fs.statSync( file ).mtime;
+    css = Math.max( stat.getTime(), css );
+  });
+  const js = fs.statSync("assets/js/app.js").mtime.getTime();
+  return {
+    css,
+    js,
+  };
+};
+
+gulp.task('pug-render', () => {
+  return gulp.src( [
+      './pug/**/*.pug',
+      '!./pug/**/_*.pug',
+      '!./pug/index.pug'
+  ] )
+      .pipe( $.pug( {
+        locals: {
+          time: assetInfo(),
+          tagline: 'Dead Channel JP',
+        }
+      } ) )
+      .pipe( gulp.dest( 'docs' ) );
 } );
 
 gulp.task('pug-front', (done) => {
@@ -158,12 +182,6 @@ gulp.task('pug-front', (done) => {
     members: [],
   };
 
-  let css = 0;
-  readDir('assets/scss').forEach(file => {
-    const stat = fs.statSync( file ).mtime;
-    css = Math.max( stat.getTime(), css );
-  });
-  const js = fs.statSync("assets/js/app.js").mtime.getTime();
   // Scan md files to compile.
   const files = fs.readdirSync( './manuscripts' );
   files.forEach( file => {
@@ -200,10 +218,7 @@ gulp.task('pug-front', (done) => {
     tagline: 'the Sci-Fi writers association in Chiba City',
     desc: 'The sky above the port was the color of television, tuned to a dead channel.',
     markdown: local,
-    time: {
-      css: css,
-      js: js,
-    }
+    time: assetInfo(),
   });
   return $.file('index.html', html, { src: true })
     .pipe(gulp.dest('docs'));

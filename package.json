@@ -54,6 +54,7 @@
     "webpack-stream": "^5.1.1"
   },
   "dependencies": {
+    "gulp-pug": "^5.0.0",
     "markdown-it-citation": "^0.1.1"
   }
 }

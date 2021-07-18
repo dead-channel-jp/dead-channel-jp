@@ -88,6 +88,7 @@
       z-index: 10;
       padding: $gap;
       font-family: $font-family-monospace;
+      font-weight: $font-weight-thin;
       text-align: center;
       color: $white;
       background-color: transparent;
@@ -142,6 +143,7 @@
       padding: 1rem;
       transition: color .3s ease-in-out;
       font-family: $font-family-monospace;
+      font-weight: $font-weight-thin;
       &:link, &:visited{
         color: #fff;
         text-decoration: none;
@@ -156,7 +158,7 @@
   &-title{
     font-size: 1.6em;
     font-family: $font-family-monospace;
-    font-weight: bold;
+    font-weight: $font-weight-thin;
     margin-bottom: $gap;
     padding-bottom: 0;
   }
@@ -169,7 +171,7 @@
         margin: 1em 0;
         color: $black;
         font-family: $font-family-monospace;
-        font-weight: normal;
+        font-weight: $font-weight-thin;
       }
     }
 
@@ -383,6 +385,7 @@
       p:last-child{
         font-size: 0.85em;
         font-family: $font-family-monospace;
+        font-weight: $font-weight-thin;
         &:before{
           content: "— ";
         }
