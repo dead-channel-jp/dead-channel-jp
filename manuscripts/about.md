@@ -32,6 +32,12 @@ Sci-fi writers may qualify for membership in any of the following ways.
 - Promoting both locally and globally to make their activities recognizable.
 - Playing an important role in the Sci-Fi culture in Chiba City.
 
-### Why we quote from "Neuromancer"?
+### History
 
-One of the most famous lines of Sience Fiction describes the sky of Chiba City!
+- Founded by Fumiki Takahashi, Satoshi Ogawa, Muneo Ishikawa, and Am Nagura in 2019.
+- Participated ["Multi-Layered City Makuhari"](https://metacity.jp/projects/makuharicity/) in 2020. Hold an Sci-Fi workshop ["Makurhari City"](https://makuhari.city/).
+- Participated [The Exhibition of Jack into the Noösphere](https://2021.metacity.jp/) in 2021. Work Title: ["Makuhari City Authentic History"](/makuhari-city/).
+
+### Why do we quote from "Neuromancer"?
+
+One of the most famous lines of Science Fiction describes the sky of Chiba City!

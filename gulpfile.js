@@ -35,7 +35,6 @@ gulp.task('sass', () => {
     }))
     .pipe($.autoprefixer({
       grid: true,
-      browsers: ['last 2 versions', 'ie 11']
     }))
     .pipe($.sourcemaps.write('./map'))
     .pipe(gulp.dest('./docs/css'));

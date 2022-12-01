@@ -277,12 +277,14 @@
 
   &-photo{
     flex: 0 0 200px;
+
     @include media-breakpoint-down( sm ) {
       flex: 0 0 80px;
     }
   }
 
   &-img{
+    position: relative;
     width: auto;
     height: auto;
     max-width: 100%;
