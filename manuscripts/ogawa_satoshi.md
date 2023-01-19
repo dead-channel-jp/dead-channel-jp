@@ -26,7 +26,7 @@ Studying at the university in 2015, he won **the 3rd Hayakawa Sci-Fi Contest** w
 - _“the Magician”_（魔術師）, 2018 Hayakawa Books, Collected in “Best Short Stories Collection of Today's Novels 2019” Tokuma Shoten.
 - _“Lies and Canons”_（嘘と正典）, 2019 Hayakawa Books, Nominated for the 162nd Naoki Award.
 - _"How to Beat Sci-Fi writers"_（SF作家の倒し方）, 2021 Hayakawa Books, won **the 53rd Seiun Award** for short stories.
-- _"the Map and the Fist"_（地図と拳）, 2022 Shūeisha, won **the 13th Yamada Fūtarō Award**.
+- _"the Map and the Fist"_（地図と拳）, 2022 Shūeisha, won **the 13th Yamada Fūtarō Award** and **the 168th Naoki Sanjūgo Award**.
 
 #### Selected Reviews
 
